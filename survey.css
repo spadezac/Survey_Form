@@ -1,0 +1,102 @@
+body {
+    height: 100vh;
+    weight: 100%;
+    background-color: #E8D7FF;
+    margin: 0;
+    font-family: sans-serif, serif;
+    font-size: 18px;
+    background-image: linear-gradient(to right, rgba(148, 145, 226, 0.8), rgb(175, 242, 216));
+    color: #EDF2F4;
+    box-sizing: border-box;
+    flex-basis: 100%;
+}
+
+h1,
+p {
+    text-align: center;
+    margin: 20px auto;
+}
+
+p {
+    font-family: italic;
+
+}
+
+.container {
+    margin: 10%;
+    padding: 50px 40px 40px 0px;
+    border-radius: 10px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    /* display: block; */
+}
+
+
+select,
+input {
+    /* display: block; */
+    width: 100%;
+    padding: 4
+}
+
+
+
+form {
+    margin: auto;
+    /* width: 60vw; */
+    min-width: 300px;
+    max-width: 500px;
+    padding: 40px;
+    background-color: rgba(27, 27, 50, 0.8);
+    border-radius: 20px;
+}
+
+
+.form-group {
+    margin: 0 0 0 8px;
+    padding: 10px 20px;
+
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    /* display: block; */
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #248277;
+    border-color: black;
+    min-width: 300px;
+}
